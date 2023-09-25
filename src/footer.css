@@ -1,0 +1,94 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+  
+}
+.footer {
+    background: linear-gradient(45deg, #000033, #000066, #000099);
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Set a higher z-index to ensure it's on top */
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.footer .container .about,
+.footer .container .account,
+.footer .container .page,
+.footer .container .payment {
+  flex: 1;
+  max-width: 25%;
+  padding: 0 20px;
+}
+
+
+.footer .container .about .detail .icon {
+    display: flex;
+  }
+  
+
+  .footer .container .about .detail .icon {
+    margin-top: 20px;
+    display: flex;
+
+  }
+  .footer .container .about .detail .icon li {
+    margin-left: 10px;
+    list-style: none;
+    padding: 10px;
+    box-shadow: rgb(244, 240, 240) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: gold;
+  }
+  
+  
+  .footer .container .about .detail .icon li:hover {
+    background: #0989ff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .footer .container .account h3,
+  .footer .container .page h3,
+  .footer .container .payment h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .container .account ul li,
+  .footer .container .page ul li,
+  .footer .container .payment .payment-icon {
+    margin-top: 5px;
+    color: #e5e9ed;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .footer .container .account ul li:hover,
+  .footer .container .page ul li:hover {
+    color: #0989ff;
+  }
+  
+  .footer .container .payment .payment-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
